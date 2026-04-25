@@ -28,7 +28,7 @@ Dados higienizados são persistidos no PostgreSQL (Supabase).
 **Interface:** 
 Refatorado em Ionic + Angular, oferecendo uma experiência mobile nativa e fluida.
 
-### 🛠️ Tecnologias & Ferramentas
+### 🛠️ Tecnologias & Ferramentas do Arca
 
 | Categoria | Ferramentas |
 | :--- | :--- |
