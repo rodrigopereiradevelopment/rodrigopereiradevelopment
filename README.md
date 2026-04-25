@@ -6,7 +6,7 @@ Atualmente sou estudante na ETEC Pedro Ferreira Alves, realizando a transição 
 
 ### 🚀 O que estou fazendo agora?
 - 🛒**🚀 Projeto ARCA: Comparador de Preços Inteligente**
-- 
+  
 O **ARCA** é uma solução completa para economia doméstica e acessibilidade, monitorando preços de supermercados em Mogi Mirim de forma automatizada.
 
 **🏗️ Arquitetura de Dados (Pipeline)**
@@ -14,23 +14,18 @@ O **ARCA** é uma solução completa para economia doméstica e acessibilidade, 
 Atualmente, o projeto utiliza um fluxo de dados sofisticado para garantir precisão e velocidade:
 
 **Extração (Scraping):**
-
 Scripts em Python 3.12 que consomem APIs nativas dos estabelecimentos (Alta performance).
 
 **Armazenamento Bruto (Raw Data):**
-
 Os dados não estruturados são salvos inicialmente no MongoDB Atlas.
 
 **Processamento & Normatização:** 
-
 Uma camada em Next.js atua como BFF (Backend for Frontend), limpando os dados e organizando a lógica de negócio.
 
 **Banco de Produção:**
-
 Dados higienizados são persistidos no PostgreSQL (Supabase).
 
 **Interface:** 
-
 Refatorado em Ionic + Angular, oferecendo uma experiência mobile nativa e fluida.
 
 ### 🛠️ Tecnologias & Ferramentas
