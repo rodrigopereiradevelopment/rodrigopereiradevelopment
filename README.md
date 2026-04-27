@@ -55,7 +55,7 @@ Refatorado em Ionic + Angular, oferecendo uma experiência mobile nativa e fluid
 ---
 ### 📂 Projeto em Destaque
 <p align="left">
-  <a href="https://github.com/rodrigopereiradevelopment/Arca">
+  <a href="https://github.com/rodrigopereiradevelopment/arca-ionic">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rodrigopereiradevelopment&repo=Arca&theme=dark" />
   </a>
 </p>
