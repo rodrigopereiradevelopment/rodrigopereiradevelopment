@@ -1,81 +1,63 @@
 # Olá, eu sou o Rodrigo Pereira! 👋
-### 🛠 Desenvolvedor de Sistemas | Foco em Segurança e Desempenho
-Atualmente sou estudante na ETEC Pedro Ferreira Alves, realizando a transição de carreira do trabalho braçal para o mundo da tecnologia. Desenvolvedor do projeto **ARCA**, focado em acessibilidade e economia para o consumidor.
+
+**Desenvolvedor Full-Stack** | Foco em arquitetura de dados, performance e acessibilidade
+
+Estudante de Técnico em Desenvolvimento de Sistemas na ETEC Pedro Ferreira Alves (conclusão jul/2026), ingressando em Análise e Desenvolvimento de Sistemas pela Fatec. Fiz a transição de carreira do trabalho braçal pra tecnologia, e hoje desenvolvo aplicações completas em domínios diferentes — comparador de preços, editor acadêmico desktop com IA local e sistemas de gestão.
 
 ---
 
-### 🚀 O que estou fazendo agora?
-- 🛒**🚀 Projeto ARCA: Comparador de Preços Inteligente**
-  
-O **ARCA** é uma solução completa para economia doméstica e acessibilidade, monitorando preços de supermercados em Mogi Mirim de forma automatizada.
+## 🚀 Projetos em destaque
 
-**🏗️ Arquitetura de Dados (Pipeline)**
+### 🛒 [ARCA](https://github.com/rodrigopereiradevelopment/arca-ionic) — Comparador de Preços Inteligente
 
-Atualmente, o projeto utiliza um fluxo de dados sofisticado para garantir precisão e velocidade:
+Plataforma mobile e web que monitora preços de **6 supermercados em Mogi Mirim**, cobrindo **~58 mil produtos**. TCC apresentado em 2026.
 
-**Extração (Scraping):**
-Scripts em Python 3.12 que consomem APIs nativas dos estabelecimentos (Alta performance).
+- Pipeline de scraping em Python com estratégias específicas por mercado (GraphQL, Salesforce Commerce Cloud, REST, BeautifulSoup)
+- Busca em três estágios: ILIKE com índice GIN → similaridade trigram → embeddings semânticos (pgvector)
+- Sync otimizado de **27 minutos para ~2 minutos** via batch upsert + RPC com DISTINCT ON
+- Push notifications (FCM), câmera, cupons, integração com Open Food Facts API
+- Arquitetura: Ionic/Angular (mobile/web) · Next.js BFF (Vercel) · PostgreSQL/Supabase · MongoDB Atlas (camada bronze)
 
-**Armazenamento Bruto (Raw Data):**
-Os dados não estruturados são salvos inicialmente no MongoDB Atlas.
+### 📝 [EditeCC](https://github.com/rodrigopereiradevelopment/editecc) — Editor Acadêmico com IA Local
 
-**Processamento & Normatização:** 
-Uma camada em Next.js atua como BFF (Backend for Frontend), limpando os dados e organizando a lógica de negócio.
+Editor desktop open source para trabalhos acadêmicos em normas ABNT, com IA rodando **100% local** (sem APIs externas).
 
-**Banco de Produção:**
-Dados higienizados são persistidos no PostgreSQL (Supabase).
+- Tauri + Next.js, build multiplataforma (Windows, Linux, macOS)
+- Tradução offline (NLLB-200) e sumarização (DistilBART) via Transformers.js, cacheados em IndexedDB
+- Geração automática de slides PowerPoint a partir do documento
+- Acessibilidade conforme WCAG 2.2
 
-**Interface:** 
-Refatorado em Ionic + Angular, oferecendo uma experiência mobile nativa e fluida.
+### ☕ Quero Café Bar — Sistema de Gestão (Projeto Acadêmico)
 
-### 🛠️ Tecnologias & Ferramentas do Arca
+API REST com NestJS + frontend Ionic, **235 testes automatizados** (146 backend + 89 frontend).
 
-| Categoria | Ferramentas |
-| :--- | :--- |
-| **Linguagens** | `Python`, `TypeScript`, `JavaScript`, `SQL` |
-| **Frontend** | `Ionic`, `Angular`, `Next.js` |
-| **Backend/BaaS** | `Supabase`, `MongoDB Atlas` |
-| **Segurança** | `Defensive Programming`, `Linux Mint` |
-| **Ambiente** | `VS Code`, `Termux`, `Hacker's Keyboard` |
-- 🔐 **Segurança Cibernética:** Estudando programação defensiva e proteção de infraestrutura.
-- 📱 **Mobile Dev:** Criando aplicativos híbridos com Ionic e explorando o Termux.
-- 
----
-
-### 💻 Tecnologias & Ferramentas
-
-| Categoria | Ferramentas |
-| :--- | :--- |
-| **Linguagens** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| **Frameworks** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=flat-square&logo=ionic&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) |
-| **Segurança** | ![Defensive Programming](https://img.shields.io/badge/Defensive_Programming-000000?style=flat-square&logo=ghostery&logoColor=white) ![Linux](https://img.shields.io/badge/Linux_Mint-000000?style=flat-square&logo=linuxmint&logoColor=white) |
-| **Banco de Dados** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
-| **Ambiente** | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) ![Termux](https://img.shields.io/badge/Termux-000000?style=flat-square&logo=termux&logoColor=white) |
-
----
-### 📂 Projeto em Destaque
-<p align="left">
-  <a href="https://github.com/rodrigopereiradevelopment/arca-ionic">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rodrigopereiradevelopment&repo=Arca&theme=dark" />
-  </a>
-</p>
+- Autenticação JWT, RBAC com bcrypt e RolesGuard
+- Build Android via Capacitor
 
 ---
 
-### 🎵 No "Repeat" enquanto código
-![Rock](https://img.shields.io/badge/Music-Heavy_Metal-red?style=for-the-badge&logo=youtube-music&logoColor=white)
-![Punk](https://img.shields.io/badge/Music-Punk_Rock-black?style=for-the-badge&logo=spicetify&logoColor=white)
+## 🛠️ Stack
+
+| Categoria | Tecnologias |
+|---|---|
+| **Linguagens** | TypeScript, JavaScript, Python, SQL |
+| **Front-end / Mobile** | Next.js, React, Ionic, Angular, HTML5, CSS3 |
+| **Back-end** | Node.js, NestJS, APIs REST |
+| **Banco de Dados** | PostgreSQL (Supabase, pgvector, RLS), MongoDB Atlas |
+| **Desktop** | Tauri (Rust) |
+| **IA & Embeddings** | Transformers.js, pgvector, NLLB-200, fastembed |
+| **Ferramentas** | Git, Vercel, Termux, Linux Mint |
 
 ---
 
-### 📊 Estatísticas do GitHub
-<p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rodrigopereiradevelopment&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigopereiradevelopment&layout=compact&langs_count=7&theme=dark"/>
-</p>
+## 📊 Atividade recente
+
+Mais de 700 contribuições no último ano, com desenvolvimento ativo simultâneo em múltiplos projetos — ARCA (frontend + backend), EditeCC e Quero Café Bar.
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=rodrigopereiradevelopment&show_icons=true&theme=default)
 
 ---
 
-### 📫 Como me encontrar
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigopereirarp)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rodrigopereira.development@gmail.com)
+## 📫 Contato
+
+[LinkedIn]https://www.linkedin.com/in/rodrigopereirarp
