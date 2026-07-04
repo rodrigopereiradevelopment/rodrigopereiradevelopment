@@ -1,8 +1,6 @@
 # Olá, eu sou o Rodrigo Pereira! 👋
 
-**Desenvolvedor Full Stack** apaixonado por construir aplicações escaláveis, acessíveis e orientadas a desempenho.
-
-Atualmente desenvolvo aplicações **Web, Mobile e Desktop**, com foco em arquitetura de software, bancos de dados, otimização de desempenho e Inteligência Artificial local.
+Desenvolvedor Full Stack em transição de carreira, concluindo Técnico em Desenvolvimento de Sistemas na ETEC Pedro Ferreira Alves. Construo aplicações completas em domínios diferentes — do comparador de preços ao editor acadêmico com IA local.
 
 ---
 
@@ -14,34 +12,34 @@ Atualmente desenvolvo aplicações **Web, Mobile e Desktop**, com foco em arquit
 - 🤖 Explorando IA local com Transformers.js, NLLB-200 e pgvector
 - ⚡ Interesse especial em transformar ideias em aplicações completas
 
-> **"Gosto de entender como as coisas funcionam antes de decidir como implementá-las."**
+> *"Gosto de entender como as coisas funcionam antes de decidir como implementá-las."*
 
 ---
 
-# 🚀 Projetos em destaque
+## 🚀 Projetos em destaque
 
-## 🛒 ARCA — Comparador Inteligente de Preços
+### 🛒 ARCA — Comparador Inteligente de Preços
 
-> Plataforma mobile e web que compara preços entre supermercados e ajuda o usuário a economizar em suas compras.
+Plataforma mobile e web que compara preços entre supermercados e ajuda o usuário a economizar em suas compras.
 
 - 🛍️ +58 mil produtos monitorados
 - 🔍 Busca híbrida (ILIKE → Trigram → Embeddings)
-- ⚡ Comparações otimizadas de **40 segundos para menos de 1 segundo**
-- 🚀 Sincronização reduzida de **27 minutos para aproximadamente 2 minutos**
+- ⚡ Comparações otimizadas de 40 segundos para menos de 1 segundo
+- 🚀 Sincronização reduzida de 27 minutos para aproximadamente 2 minutos
+- 🏪 Portal B2B para mercados gerenciarem produtos e importar CSV
 - 📱 Aplicação Mobile e Web utilizando Ionic + Next.js
 
 **Tecnologias**
 
-`Ionic` • `Angular` • `Next.js` • `PostgreSQL` • `Supabase` • `MongoDB` • `Python`
+Ionic • Angular • Next.js • PostgreSQL • Supabase • MongoDB • Python
 
-🔗 **Repositório:**  
-https://github.com/rodrigopereiradevelopment/arca-ionic
+🔗 [Repositório](https://github.com/rodrigopereiradevelopment/arca-ionic)
 
 ---
 
-## 📝 EditeCC — Editor Acadêmico com IA Local
+### 📝 EditeCC — Editor Acadêmico com IA Local
 
-> Editor acadêmico open source para criação de trabalhos em normas ABNT com Inteligência Artificial executando totalmente offline.
+Editor acadêmico open source para criação de trabalhos em normas ABNT com Inteligência Artificial executando totalmente offline.
 
 - 💻 Desktop multiplataforma (Windows, Linux e macOS)
 - 🌐 Tradução offline (NLLB-200)
@@ -51,16 +49,15 @@ https://github.com/rodrigopereiradevelopment/arca-ionic
 
 **Tecnologias**
 
-`Tauri` • `Next.js` • `Transformers.js`
+Tauri • Next.js • Transformers.js
 
-🔗 **Repositório:**  
-https://github.com/rodrigopereiradevelopment/editecc
+🔗 [Repositório](https://github.com/rodrigopereiradevelopment/editecc)
 
 ---
 
-## ☕ Quero Café Bar
+### ☕ Quero Café Bar
 
-> Sistema completo de gestão para estabelecimentos, desenvolvido durante a disciplina de Programação para Dispositivos Móveis.
+Sistema completo de gestão para estabelecimentos, desenvolvido durante a disciplina de Programação para Dispositivos Móveis.
 
 - 🔐 Autenticação JWT + RBAC
 - 📱 Aplicação Android com Capacitor
@@ -69,42 +66,26 @@ https://github.com/rodrigopereiradevelopment/editecc
 
 **Tecnologias**
 
-`NestJS` • `Ionic` • `TypeScript`
+NestJS • Ionic • TypeScript
 
-🔗 **Repositório:**  
-https://github.com/rodrigopereiradevelopment/quero-cafe-bar
-
----
-
-# 🛠️ Tecnologias
-
-### Linguagens
-
-TypeScript • JavaScript • Python • SQL • Rust
-
-### Front-end / Mobile
-
-Next.js • React • Angular • Ionic
-
-### Back-end
-
-Node.js • NestJS
-
-### Banco de Dados
-
-PostgreSQL • Supabase • MongoDB Atlas
-
-### Desktop
-
-Tauri (Rust)
-
-### IA
-
-Transformers.js • pgvector • NLLB-200 • FastEmbed
+🔗 [Repositório](https://github.com/rodrigopereiradevelopment/quero-cafe-bar)
 
 ---
 
-# 🎯 O que gosto de construir
+## 🛠️ Tecnologias
+
+| Categoria | Tecnologias |
+|---|---|
+| **Linguagens** | TypeScript • JavaScript • Python • SQL • Rust |
+| **Front-end / Mobile** | Next.js • React • Angular • Ionic |
+| **Back-end** | Node.js • NestJS |
+| **Banco de Dados** | PostgreSQL • Supabase • MongoDB Atlas |
+| **Desktop** | Tauri (Rust) |
+| **IA** | Transformers.js • pgvector • NLLB-200 • FastEmbed |
+
+---
+
+## 🎯 O que gosto de construir
 
 - ✔ Software Open Source
 - ✔ IA executando localmente
@@ -115,7 +96,7 @@ Transformers.js • pgvector • NLLB-200 • FastEmbed
 
 ---
 
-# 📚 Atualmente estudando
+## 📚 Atualmente estudando
 
 - 🦀 Rust
 - 🏛️ Arquitetura de Software
@@ -126,29 +107,20 @@ Transformers.js • pgvector • NLLB-200 • FastEmbed
 
 ---
 
-# 📊 Alguns números
+## 📊 Alguns números
 
 - 📦 3 projetos principais em desenvolvimento
 - 📱 Desenvolvimento Web, Mobile e Desktop
 - 🗄️ +58 mil produtos monitorados
-- ⚡ Comparações reduzidas de **40 s para menos de 1 s**
+- ⚡ Comparações reduzidas de 40s para menos de 1s
 - 🧪 +235 testes automatizados
 - 📈 +700 contribuições no último ano
 
 ---
 
-# 📈 Estatísticas do GitHub
+## 📫 Contato
 
-<!-- GitHub Readme Stats -->
-<!-- Você pode adicionar os cards futuramente -->
-
----
-
-# 📫 Contato
-
-💼 LinkedIn
-
-https://www.linkedin.com/in/rodrigopereirarp
+💼 [LinkedIn](https://www.linkedin.com/in/rodrigopereirarp) • rodrigopereira.development@gmail.com
 
 ---
 
