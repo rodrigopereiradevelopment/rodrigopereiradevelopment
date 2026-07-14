@@ -125,3 +125,6 @@ NestJS • Ionic • TypeScript
 ---
 
 ⭐ Obrigado por visitar meu perfil!
+
+![](https://komarev.com/ghpvc/?username=rodrigopereiradevelopment)
+
