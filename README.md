@@ -1,3 +1,6 @@
+![](https://komarev.com/ghpvc/?username=rodrigopereiradevelopment&color=green&style=flat-square)
+
+
 # Olá, eu sou o Rodrigo Pereira! 👋
 
 Desenvolvedor Full Stack em transição de carreira, concluindo Técnico em Desenvolvimento de Sistemas na ETEC Pedro Ferreira Alves. Construo aplicações completas em domínios diferentes — do comparador de preços ao editor acadêmico com IA local.
@@ -125,6 +128,4 @@ NestJS • Ionic • TypeScript
 ---
 
 ⭐ Obrigado por visitar meu perfil!
-
-![](https://komarev.com/ghpvc/?username=rodrigopereiradevelopment)
 
