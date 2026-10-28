@@ -121,6 +121,11 @@ NestJS • Ionic • TypeScript
 
 ---
 
+🧠 Em desenvolvimento: Natacha
+IA construída do zero em C++, sem APIs externas, implementando as camadas de rede neural passo a passo: do neurônio à atenção.
+
+---
+
 ## 📫 Contato
 
 💼 [LinkedIn](https://www.linkedin.com/in/rodrigopereirarp) • rodrigopereira.development@gmail.com
